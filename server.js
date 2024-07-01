@@ -88,6 +88,6 @@ app.delete('/deleteItem', (request, response) => { // deletes request. endpoint 
 
 })
 
-app.listen(process.env.PORT || PORT, ()=>{ // listens for
+app.listen(process.env.PORT || PORT, ()=>{ // listens for port
     console.log(`Server running on port ${PORT}`) // consoles port
 })
